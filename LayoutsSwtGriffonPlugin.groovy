@@ -35,7 +35,7 @@ class OpalGriffonPlugin {
     ]
     String title = 'Additional SWT layouts'
     String description = '''
-Delivers additional layouts created by Scott Stanchfield. These are ports of AWT layout managers for use in SWT
+Delivers additional [layouts for SWT][1] created by [Scott Stanchfield][2]. These are ports of AWT layout managers for use in SWT
 
 Usage
 -----
@@ -49,7 +49,7 @@ The following nodes will become available on a View script upon installing this 
 | jgridLayout   | `com.javadude.swt.layouts.GridLayout`   |
 
 These layouts can be used exactly as their AWT counterparts. In the case of `jborderLayout` you must specify additional constraints
-using `layoutData:`, as the follwojg example shows
+using `layoutData:`, as the following example shows
 
     import com.javadude.swt.layouts.BorderLayout
     application(text: 'Layouts', size:[200, 200]) {
@@ -62,5 +62,6 @@ using `layoutData:`, as the follwojg example shows
     }
 
 [1]: http://www.javadude.com/tools/swtawtlayouts/index.html
+[2]: http://www.javadude.com/index.html
 '''
 }
